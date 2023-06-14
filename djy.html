@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简介</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>个人简介</h1>
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="intro">
+        <h2>大家好，我叫djy</h2>
+        <p>我是一名华强职校的学生</p>
+    </section>
+    <section id="about">
+        <h2>关于我</h2>
+        <div>
+            <h3><i class="fa fa-user"></i>姓名：</h3>
+            <p>djy</p>
+        </div>
+        <div>
+            <h3><i class="fa fa-graduation-cap"></i>学历：</h3>
+            <p>计算机科学学位</p>
+        </div>
+        <div>
+            <h3><i class="fa fa-briefcase"></i>经验：</h3>
+            <p>前端开发者，3年经验</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>技能</h2>
+        <table>
+            <tr>
+                <th>技能</th>
+                <th>级别</th>
+            </tr>
+            <tr>
+                <td>HTML5/CSS3</td>
+                <td><progress value="90" max="100"></progress></td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td><progress value="70" max="100"></progress></td>
+            </tr>
+            <tr>
+                <td>jQuery</td>
+                <td><progress value="80" max="100"></progress></td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>联系我</h2>
+        <form>
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">电子邮件：</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">留言：</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">发送</button>
+        </form>
+        <ul>
+            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+        </ul>
+    </section>
+</body>
+</html>
